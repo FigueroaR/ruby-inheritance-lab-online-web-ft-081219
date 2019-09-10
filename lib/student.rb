@@ -11,5 +11,8 @@ class Student < User
     #binding.pry 
   end 
   
+  def knowledge   
+    @knowledge
+  end
 end
 
