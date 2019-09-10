@@ -3,15 +3,14 @@ class User
 
   attr_accessor :first_name, :last_name, :user
   
-  def first_name(first)
+  def name(first, last)
+    @last = last 
     @first = first    
     
   #binding.pry 
   end 
   
-  def last_name(last)
-    @last = last 
-  end 
+
  
 end 
   
