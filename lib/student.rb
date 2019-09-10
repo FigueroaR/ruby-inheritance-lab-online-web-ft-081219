@@ -6,7 +6,8 @@ class Student < User
     @@knowledge 
   end 
   
-  def learn(arugument)
+  def learn(argument)
+    knowledge << argument 
     binding.pry 
   end 
   
