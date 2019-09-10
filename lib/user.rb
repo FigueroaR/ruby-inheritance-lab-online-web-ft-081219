@@ -1,7 +1,7 @@
 require 'pry'
 class User 
 
-  attr_accessor :first_name, :last_name
+  attr_accessor :first_name, :last_name, :user
   
   def initialize(first_name, last_name)
     @first_name = first_name    
@@ -9,12 +9,6 @@ class User
   #binding.pry 
   end 
   
-  def first_name
-    @first_name
-  end 
-  
-  def last_name
-    @last_name
-  end 
+ 
 end 
   
