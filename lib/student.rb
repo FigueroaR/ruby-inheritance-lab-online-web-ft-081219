@@ -1,6 +1,14 @@
+require 'pry'
 require_relative "./user.rb"
 class Student < User
-  @@knoledge = []
+  @@knowledge = []
   def initialize
-    @@knoledge 
+    @@knowledge 
+  end 
+  
+  def learn(arugument)
+    binding.pry 
+  end 
+  
 end
+
