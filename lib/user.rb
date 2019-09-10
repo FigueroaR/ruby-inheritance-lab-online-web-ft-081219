@@ -9,6 +9,9 @@ class User
   #binding.pry 
   end 
   
+  def last_name(last)
+    @last = last 
+  end 
  
 end 
   
